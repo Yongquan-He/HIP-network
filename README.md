@@ -64,10 +64,7 @@ In train.py:
   publisher = {ijcai.org},
   year      = {2021},
   url       = {https://doi.org/10.24963/ijcai.2021/264},
-  doi       = {10.24963/ijcai.2021/264},
-  timestamp = {Wed, 25 Aug 2021 17:11:16 +0200},
-  biburl    = {https://dblp.org/rec/conf/ijcai/HeZL0ZZ21.bib},
-  bibsource = {dblp computer science bibliography, https://dblp.org}
+  
 }
 
 
