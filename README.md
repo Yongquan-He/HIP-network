@@ -63,8 +63,22 @@ In train.py:
   pages     = {1915--1921},
   publisher = {ijcai.org},
   year      = {2021},
-  url       = {https://doi.org/10.24963/ijcai.2021/264},
-  
+  url       = {https://doi.org/10.24963/ijcai.2021/264}
 }
+<inproceedings key="conf/ijcai/HeZL0ZZ21" mdate="2021-08-25">
+<author>Yongquan He</author>
+<author>Peng Zhang</author>
+<author>Luchen Liu</author>
+<author>Qi Liang 0002</author>
+<author>Wenyuan Zhang</author>
+<author>Chuang Zhang</author>
+<title>HIP Network: Historical Information Passing Network for Extrapolation Reasoning on Temporal Knowledge Graph.</title>
+<pages>1915-1921</pages>
+<year>2021</year>
+<booktitle>IJCAI</booktitle>
+<ee type="oa">https://doi.org/10.24963/ijcai.2021/264</ee>
+<crossref>conf/ijcai/2021</crossref>
+<url>db/conf/ijcai/ijcai2021.html#HeZL0ZZ21</url>
+</inproceedings>
 
 
