@@ -54,14 +54,12 @@ In train.py:
                Qi Liang and  
                Wenyuan Zhang and  
                Chuang Zhang},  
-  editor    = {Zhi{-}Hua Zhou},  
-  title     = {{HIP} Network: Historical Information Passing Network for Extrapolation  
+  title     = {HIP Network: Historical Information Passing Network for Extrapolation  
                Reasoning on Temporal Knowledge Graph},  
   booktitle = {Proceedings of the Thirtieth International Joint Conference on Artificial
-               Intelligence, {IJCAI} 2021, Virtual Event / Montreal, Canada, 19-27
+               Intelligence, IJCAI 2021, Virtual Event / Montreal, Canada, 19-27
                August 2021},  
   pages     = {1915--1921},  
-  publisher = {ijcai.org},  
   year      = {2021},  
   url       = {https://doi.org/10.24963/ijcai.2021/264}  
 }
