@@ -23,15 +23,6 @@ Train the model and test.
 python train.py -d ICEWS18 --gpu 2 --dropout 0.5 --n-hidden 200 --lr 1e-3 --max-epochs 100 --batch-size 1024 --valid-every 10 --test-every 2
 For other datasets, the only thing need to do is replacing the ICEWS18 with other names (YAGO, WIKI, ICEWS14, GDELT).
 
-## Ablation study
-Edit the exp/hipn_model.py (line 19).
-- self.use_vocab = True/False.
-- self.use_multi_step = True/False.
-
-## Case Study
-Edit the exp/hipn_model.py (line 25).
-- self.print_analysis_process = True/False.
-
 ## Other parameters
 You can find more details at train.py.
 
@@ -47,6 +38,7 @@ In train.py:
 - torch.cuda.manual_seed_all(seed)
 
 ## reference
+```bib
 @inproceedings{DBLP:conf/ijcai/HeZL0ZZ21,  
   author    = {Yongquan He and  
                Peng Zhang and  
@@ -63,4 +55,5 @@ In train.py:
   year      = {2021},  
   url       = {https://doi.org/10.24963/ijcai.2021/264}  
 }
+```
 
