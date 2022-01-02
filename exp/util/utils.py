@@ -634,3 +634,8 @@ def get_vocabulary(triple_dict, stop_time, dataset):
         pickle.dump([all_his_dict_sub_er2e, all_his_dict_ob_er2e], f)
 
     return all_his_dict_sub_er2e, all_his_dict_ob_er2e
+
+def get_param(shape):
+    param = nn.Parameter(torch.Tensor(*shape))
+    nn.init.xavier_normal_(param, gain=nn.init.calculate_gain('relu'))
+    return param
