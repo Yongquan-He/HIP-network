@@ -1,6 +1,6 @@
 from torch_scatter import scatter_add
 
-from exp.util.helper import *
+from exp.util.utils import *
 from exp.module.structural.message_passing import MessagePassing
 
 
