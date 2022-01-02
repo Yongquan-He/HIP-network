@@ -1,7 +1,7 @@
 from exp.module.structural.compgcn_conv import CompGCNConv
 from exp.module.structural.compgcn_conv_basis import CompGCNConvBasis
 from exp.module.structural.message_passing import MessagePassing
-from exp.util.helper import *
+from exp.util.utils import *
 import torch.nn.functional as F
 
 
