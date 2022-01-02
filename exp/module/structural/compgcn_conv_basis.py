@@ -1,7 +1,7 @@
 from torch import scatter_add
 
 from exp.module.structural.message_passing import MessagePassing
-from exp.util.helper import *
+from exp.util.utils import *
 
 class CompGCNConvBasis(MessagePassing):
 	def __init__(self, in_channels, out_channels, num_rels, num_bases, act=lambda x:x, cache=True, params=None):
