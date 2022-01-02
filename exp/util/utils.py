@@ -363,7 +363,7 @@ def construct_graph_for_gcn_for_each_time(triple_dict, num_rels, stop_time, data
             tempt_edge_index = edge_index
             tempt_edge_type = edge_type
     with open('./data/' + dataset + '/adj', 'wb') as f:
-        return pickle.dump([all_edge_index, all_edge_type], f)
+        pickle.dump([all_edge_index, all_edge_type], f)
     return all_edge_index, all_edge_type
 
 def construct_adj(data, num_rels):
